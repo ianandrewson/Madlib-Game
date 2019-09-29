@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Madlib</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class = inputField>
+        <label>
+            Noun
+            <input type="text" id = "noun1Input">
+        </label>
+        <br>
+        <label>
+            Noun
+            <input type="text" id = "noun2Input">
+        </label>
+        <br>
+        <label>
+            Noun
+            <input type="text" id = "noun3Input">
+        </label>
+        <br>
+        <label>
+            Adj
+            <input type="text" id = "adj1Input">
+        </label>
+        <br>
+        <label>
+            Adj
+            <input type="text" id = adj2Input>
+        </label>
+        <br>
+        <label>
+            Gerrund
+            <input type="text" id = "gerrund1Input">
+        </label>
+        <br>
+        <label>
+            Verb
+            <input type="text" id = "verb1Input">
+        </label>
+        <br>
+    </header>
+
+    <br>
+
+    <button onclick="getBoxContents(), revealText()">Reveal!</button>
+    <content id="madLibText">
+        <p>Once upon a time there was a <span id="adj1"></span> toad named Herbit. Herbit lived in a <span class="noun1"></span>. One day, a big <span class = "noun2"></span> came to his home and started <span id="gerrund1"></span> on his door.
+        </p>
+        <p>Come out here right now! yelled the <span class= "noun2"></span>. You hopped on my <span class= "noun3"></span> last night and totally broke it!
+        </p>
+        <p>
+            Herbit was very <span id="adj2"></span> and didn't know what to do. He wanted to <span id="verb1"></span> but didn't want to make the <span class = "noun2"></span> any angrier.
+        </p>
+        <p>
+            Herbit came outside and asked <br>
+            What if you took my <span class= "noun3"></span>? Would that make you feel better?
+            <br>
+            The <span class="noun2"></span> said NO. I WANT YOUR <span  class="noun1"></span><br>
+            Herbit said OK and gave it to him.
+        </p>
+    </content>
+</body>
+</html>
