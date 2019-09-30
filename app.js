@@ -35,9 +35,9 @@ function getBoxContents() {
     const verb1Span = document.getElementById('verb1');
     verb1Span.textContent = verbVal1;
 
-    let allSpans = document.getElementsByTagName('span');
-    for(let i = 0; i < allSpans.length; i++) {
-        allSpans[i].textContent.toLowerCase();
+     let allSpans = document.getElementsByTagName('span');
+     for(let i = 0; i < allSpans.length; i++) {
+         allSpans[i].textContent.toLowerCase();
     }
 }
 
